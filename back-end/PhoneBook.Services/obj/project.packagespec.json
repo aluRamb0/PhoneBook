@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook.Services/PhoneBook.Services.csproj",
+    "projectName": "PhoneBook.Services",
+    "projectPath": "/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook.Services/PhoneBook.Services.csproj",
+    "outputPath": "/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook.Services/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook.EfCore/PhoneBook.EfCore.csproj": {
+            "projectPath": "/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook.EfCore/PhoneBook.EfCore.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+    }
+  }
+}

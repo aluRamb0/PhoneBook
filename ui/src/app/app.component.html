@@ -1,0 +1,103 @@
+<div class="text-centre main">
+  <div class="card mb-3 border-0">
+    <div class="row no-gutters">
+      <div class="col-md-4 fixed d-flex justify-content-end">
+
+        <div class="card">
+          <div class="card-body">
+            <div class="form-group">
+              <input class="form-control form-control-lg" type="text" placeholder="Search" [(ngModel)]="filterString">
+              <hr />
+              <ul class="list-group" *ngIf="entries.length > 0">
+                <li class="list-group-item {{(entry.selected? ' active': '') + entry.deleteClass}}"
+                  *ngFor="let entry of entries; let i = index" (click)="setActive(i)">
+                  <div class="row">
+                    <div class="col d-flex justify-content-start phone-name">{{entry.name}}
+                    </div>
+                    <div class="col d-flex justify-content-start phone-number">
+                      {{entry.phoneNumber}}
+
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-4">
+                <img alt="Permyssion" src="./assets/download.jpeg">
+
+              </div>
+
+              <div class="col">
+                <div class="row">
+                  <h1>
+                    {{ title }}
+                  </h1>
+                </div>
+                <hr/>
+               <div class="row">
+                <div class="col">
+
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Name</span>
+                    </div>
+                    <input class="form-control form-control-lg" type="text" placeholder="Name your phone book" required
+                    [(ngModel)]="name">
+                  </div>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="btn btn-primary btn-lg" (click)="savePhoneBook()">Save</button>
+
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row" *ngIf="addingEntry">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Entry Name</span>
+                    </div>
+                    <input class="form-control form-control-lg" type="text" [(ngModel)]="entryName"
+                      placeholder="enter label for you number">
+                  </div>
+
+                  <hr/>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Entry Number</span>
+                    </div>
+                    <br />
+                    <input class="form-control form-control-lg" type="tel" placeholder="Phone Number"
+                      [(ngModel)]="phoneNumber" placeholder="enter your phone number">
+                  </div>
+                </div>
+                <br/>
+               <div class="row">
+                 <div class="col-3">
+                  <button *ngIf="phoneBook" type="button" class="btn btn-primary btn-lg" (click)="createOrSave()">
+                    {{addingEntry? 'Save': 'New'}} Entry</button>
+
+                 </div>
+                 <div class="col">
+
+               <button *ngIf="addingEntry" type="button" class="btn btn-danger btn-lg" (click)="deleteEntry()" (mouseenter) ="applyBlink()" (mouseleave) ="removeBlink()"> {{hasActive? 'Delete Entry': 'Cancel'}}</button>
+                 </div>
+               </div>
+             </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

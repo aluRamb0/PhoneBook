@@ -1,0 +1,38 @@
+div.main{
+    padding: 1px 15px 0px 15px;
+}
+br{
+    padding: 5px 0px 5px 0px;
+}
+.phone-name{
+    border-right: 1px solid;
+}
+
+.phone-number{
+    border-left: 1px solid;
+}
+li{
+    cursor: pointer;
+    padding: 8px;
+    background-color: transparent;
+}
+li:hover{
+    background-color: #007bff!important;
+}
+span.input-group-text{
+    min-width: 130px;
+}
+
+.blink {
+    background-color: #dc3545!important;
+  }
+  @keyframes blink-animation {
+    to {
+        background-color: #dc3545!important;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+        background-color: #dc3545!important;
+    }
+  }
