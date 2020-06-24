@@ -1,9 +1,0 @@
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.deps.json
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.dll
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.pdb
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.csprojAssemblyReference.cache
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.csproj.CoreCompileInputs.cache
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.AssemblyInfoInputs.cache
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.AssemblyInfo.cs
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.dll
-/Users/aluRamb0/Work/PhoneBook/PhoneBook-Api/PhoneBook/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.pdb
