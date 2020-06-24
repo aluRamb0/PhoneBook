@@ -1,4 +1,4 @@
- # Setup intructions
+ # Setup instructions
  
  Run th following commands
  1.	install dotnet core sdk 3 & EF core tool [here](https://dotnet.microsoft.com/download).
